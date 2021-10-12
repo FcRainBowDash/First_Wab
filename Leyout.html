@@ -39,10 +39,10 @@ nav ul {
 
 article {
   float: left;
-  padding: 20px;
+  padding: 0px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 400px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -82,15 +82,19 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+      <li><a href="london.html" target="iframe_a">London</a></li>
+      <li><a href="paris.html" target="iframe_a">Paris</a></li>
+      <li><a href="tokyo.html" target="iframe_a">Tokyo</a></li>
+      <li><a href="table.html" target="iframe_a">Table</a></li>
+      <li><a href="canvas.html" target="iframe_a">Canvas</a></li>
+      <li><a href="audio.html" target="iframe_a">Audio</a></li>
+      <li><a href="video.html" target="iframe_a">Video</a></li>
+      <li><a href="googlemap.html" target="iframe_a">Google Map</a></li>
     </ul>
   </nav>
   
   <article>
-    
-    <iframe src="London.html" name="iframe_a" height="200px" width="100%" ></iframe>
+    <iframe src="london.html" name="iframe_a" height="200px" width="100%" style="border:none;" ></iframe>
    
   </article>
 </section>
